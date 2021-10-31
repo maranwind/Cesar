@@ -1,0 +1,34 @@
+body{
+
+	background-image: url("../resources/fondo_registro.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+}
+
+.fondo{
+	background-color: rgba(0,0,0,0.5);
+	color: white;
+	width: 300px;
+	margin-top: 50px;
+}
+.fondo .container form{
+	display: flex;
+	flex-direction: column;
+	padding: 30px
+}
+.fondo .container form input{
+	margin: 4px 0px 4px 0px;
+	padding: 5px;
+
+}
+.fondo .container form #botones{
+	display: flex;
+	justify-content: center;
+
+}
+
+

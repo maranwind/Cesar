@@ -1,0 +1,59 @@
+body{
+	background-image: url("../resources/fondo.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+
+}
+.container{
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	/*flex-direction: column;*/
+}
+	/*-----FORULARIO IMAGEN-----*/
+
+.container .formulario{
+	width: 300px;	
+	padding: 20px;
+	
+}
+.container .formulario form{
+	display: flex;
+	flex-direction: column;
+	color: white;
+	background-color: rgba(0,0,0,0.5);
+	padding: 35px;
+
+
+}
+.container .formulario form input{
+	margin: 6px 0px 6px 0px;
+
+}
+
+	/*-----FORULARIO IMAGEN-----*/
+
+.usuarios{
+	color: white;
+	background-color: rgba(0,0,0,0.5);
+	width: 700px;
+	height: 200px;
+	margin: 20px;
+	padding: 5px;
+}
+
+
+/*REPOSITORIO DE IMAGENES*/
+
+.container-pictures{
+	color: white;
+	background-color: rgba(0,0,0,0.5);
+	width: 600px;
+	height: 200px;
+	margin: 20px;
+	padding: 5px;
+
+
+}
+

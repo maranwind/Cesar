@@ -1,0 +1,35 @@
+body{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-image: url("../resources/fondo_login.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.fondo{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.fondo .container form{
+	margin-top: 50px;
+	display: flex;
+	flex-direction: column;
+	padding: 20px
+
+}
+.fondo .container form input{
+	margin: 3px 0px 10px 0px;
+	padding: 7px;
+
+}
+.fondo .container form #botones{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+
+}
+
